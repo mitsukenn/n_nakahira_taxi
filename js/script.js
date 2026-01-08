@@ -23,4 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.1 });
 
     revealElements.forEach(el => revealObserver.observe(el));
+
+    // Dynamic Viewport Height for Mobile Toolbars
+    const setVh = () => {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    window.addEventListener('resize', setVh);
+    window.addEventListener('orientationchange', setVh);
+    setVh();
 });

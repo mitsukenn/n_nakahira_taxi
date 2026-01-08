@@ -331,7 +331,9 @@ img {
 /* Action Float (Mobile) */
 .action-float {
   position: fixed;
-  bottom: 0 !important;
+  /* Use JS-calculated --vh or fallback to 1vh * 100 */
+  top: calc(var(--vh, 1vh) * 100);
+  transform: translateY(-100%);
   left: 0 !important;
   right: 0 !important;
   width: 100vw !important;
