@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>観光モデルコース | 中平個人タクシー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-taxi"></i> <span>中平個人タクシー</span>
+            </a>
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <div class="header-phone hide-mobile">
+                    <i class="fas fa-phone-alt"></i> 090-2507-9761
+                </div>
+                <button class="mobile-menu-btn" aria-label="メニューを開く">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="reason.html" class="nav-link">選ばれる理由</a></li>
+                    <li><a href="courses.html" class="nav-link">観光コース</a></li>
+                    <li><a href="driver.html" class="nav-link">ドライバー紹介</a></li>
+                    <li><a href="rates.html" class="nav-link">料金・ご予約</a></li>
+                    <li><a href="reviews.html" class="nav-link">お客様の声</a></li>
+                    <li><a href="blog.html" class="nav-link">おすすめ情報</a></li>
+                    <li class="hide-mobile">
+                        <a href="tel:090-2507-9761" class="btn btn-primary" style="padding: 0.5rem 1.5rem;">
+                            <i class="fas fa-phone-alt"></i> 予約電話する
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="reveal-up">
+                <h1 class="section-title">観光モデルコース<br><span class="text-gradient">Model Courses</span></h1>
+                <div class="glass"
+                    style="max-width: 800px; margin: 0 auto 4rem; padding: 2rem; border-radius: var(--radius-lg); text-align: center;">
+                    <h2 style="font-size: 1.5rem; color: var(--color-primary); margin-bottom: 1rem;">
+                        あなたの旅に合わせた、オーダーメイドの長崎観光</h2>
+                    <p style="color: var(--color-text-light);">
+                        「時間が限られている」「足腰が心配」「子供が一緒」<br>
+                        どんなご事情でも大丈夫。25年の経験で、最適なルートをご案内します。<br><br>
+                        下記は人気のモデルコースです。もちろん、ご要望に合わせたアレンジも喜んで承ります。
+                    </p>
+                </div>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="reveal-up" style="margin-bottom: 5rem;">
+                <h2 style="text-align: center; margin-bottom: 2rem;"><i class="fas fa-th-list"></i> コース選びの目安</h2>
+                <div style="overflow-x: auto;">
+                    <table
+                        style="width: 100%; border-collapse: collapse; background: white; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md);">
+                        <thead style="background: var(--color-primary); color: white;">
+                            <tr>
+                                <th style="padding: 1.5rem; text-align: left;">こんな方におすすめ</th>
+                                <th style="padding: 1.5rem; text-align: left;">おすすめコース</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid #f1f5f9;">
+                                <td style="padding: 1.5rem;">滞在時間が短い・ポイントを絞りたい</td>
+                                <td style="padding: 1.5rem;">サクッと長崎（2〜2.5時間）</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #f1f5f9; background: var(--color-primary-light);">
+                                <td style="padding: 1.5rem;">長崎の主要スポットを一通り見たい</td>
+                                <td style="padding: 1.5rem;"><strong>長崎まるごと（3〜3.5時間）</strong> ★一番人気</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #f1f5f9;">
+                                <td style="padding: 1.5rem;">ゆっくり写真を撮りたい・じっくり見学したい</td>
+                                <td style="padding: 1.5rem;">じっくり長崎（4時間〜）</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1.5rem;">世界遺産の教会群を訪ねたい</td>
+                                <td style="padding: 1.5rem;">外海・世界遺産（5〜6時間）</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 6rem;">
+
+                <!-- ① サクッと長崎コース -->
+                <div id="sakutto" class="reveal-up">
+                    <div
+                        style="border-left: 6px solid var(--color-primary); padding-left: 1.5rem; margin-bottom: 2rem;">
+                        <h2 style="font-size: 2rem; color: var(--color-primary);">① サクッと長崎コース</h2>
+                        <p style="font-weight: bold; color: var(--color-text-light);"><i class="far fa-clock"></i>
+                            2〜2.5時間</p>
+                    </div>
+                    <p style="margin-bottom: 2rem;"><strong>こんな方に：</strong> 時間が限られている／午前or午後だけ空いている／ポイントを絞って観光したい</p>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                        <!-- Pattern A -->
+                        <div class="card" style="padding: 2rem;">
+                            <h3 style="margin-bottom: 1rem; color: var(--color-primary-dark);">＜パターンA：平和学習コース＞</h3>
+                            <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1.5rem;">
+                                テーマ：長崎の祈りに触れる</p>
+                            <div
+                                style="background: var(--color-bg); padding: 1.5rem; border-radius: var(--radius-md); font-size: 0.95rem;">
+                                <ul style="display: flex; flex-direction: column; gap: 0.5rem;">
+                                    <li>ホテル・駅</li>
+                                    <li>↓ 車で15分</li>
+                                    <li style="border-top: 1px solid #ddd; padding-top: 0.5rem;"><strong>①
+                                            平和公園・原爆落下中心地</strong><br><small>【下車 約30分】平和祈念像の前で記念撮影</small></li>
+                                    <li>↓ 車で5分</li>
+                                    <li style="border-top: 1px solid #ddd; padding-top: 0.5rem;"><strong>②
+                                            原爆資料館</strong><br><small>【下車 約40〜50分】※見学時間は調整可</small></li>
+                                    <li>↓ 車窓見学</li>
+                                    <li style="border-top: 1px solid #ddd; padding-top: 0.5rem;"><strong>③
+                                            浦上天主堂</strong><br>
+                                        <div
+                                            style="background: white; padding: 0.5rem; border-radius: 4px; border: 1px solid var(--color-primary); margin-top: 5px;">
+                                            🚕 <strong>タクシーならでは：</strong><br>
+                                            裏手の道から全景が見えるポイントまでお連れします
+                                        </div>
+                                    </li>
+                                    <li style="border-top: 1px solid #ddd; padding-top: 0.5rem;"><strong>④
+                                            一本柱鳥居・被爆クスノキ</strong><br>
+                                        <div
+                                            style="background: white; padding: 0.5rem; border-radius: 4px; border: 1px solid var(--color-primary); margin-top: 5px;">
+                                            🚕 <strong>タクシーならでは：</strong><br>
+                                            鳥居の真下を車でくぐり抜けます
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Pattern B -->
+                        <div class="card" style="padding: 2rem;">
+                            <h3 style="margin-bottom: 1rem; color: var(--color-primary-dark);">＜パターンB：異国情緒コース＞</h3>
+                            <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1.5rem;">
+                                テーマ：長崎のロマンを感じる</p>
+                            <div
+                                style="background: var(--color-bg); padding: 1.5rem; border-radius: var(--radius-md); font-size: 0.95rem;">
+                                <ul style="display: flex; flex-direction: column; gap: 0.5rem;">
+                                    <li>ホテル・駅</li>
+                                    <li>↓ 車で10分</li>
+                                    <li style="border-top: 1px solid #ddd; padding-top: 0.5rem;"><strong>①
+                                            出島</strong><br><small>【車窓または短時間下車】日本の開国の歴史を感じる</small></li>
+                                    <li>↓ 車で5分</li>
+                                    <li style="border-top: 1px solid #ddd; padding-top: 0.5rem;"><strong>②
+                                            オランダ坂</strong><br>
+                                        <div
+                                            style="background: white; padding: 0.5rem; border-radius: 4px; border: 1px solid var(--color-primary); margin-top: 5px;">
+                                            🚕 <strong>タクシーならでは：</strong><br>
+                                            石畳の坂道を車で走り抜ける体験をお楽しみください
+                                        </div>
+                                    </li>
+                                    <li style="border-top: 1px solid #ddd; padding-top: 0.5rem;"><strong>③
+                                            グラバー園・大浦天主堂</strong><br><small>【下車 約60分】</small>
+                                        <div
+                                            style="background: white; padding: 0.5rem; border-radius: 4px; border: 1px solid var(--color-primary); margin-top: 5px;">
+                                            🚕 <strong>タクシーならでは：</strong><br>
+                                            第2ゲートから入園。園内は全て下り坂で楽々！
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ② 長崎まるごとコース -->
+                <div id="marugoto" class="reveal-up">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                        <div style="border-left: 6px solid #ef4444; padding-left: 1.5rem;">
+                            <h2 style="font-size: 2rem; color: var(--color-text);">② 長崎まるごとコース</h2>
+                            <p style="font-weight: bold; color: var(--color-text-light);"><i class="far fa-clock"></i>
+                                3〜3.5時間</p>
+                        </div>
+                        <span
+                            style="background: #ef4444; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; font-weight: bold; font-size: 0.8rem;">★一番人気</span>
+                    </div>
+                    <p style="margin-bottom: 2rem;"><strong>こんな方に：</strong> 長崎の主要スポットを一通り見たい／初めての長崎旅行／王道を押さえたい</p>
+
+                    <div class="card" style="padding: 2.5rem; border: 2px solid var(--color-primary-light);">
+                        <div
+                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; align-items: start;">
+                            <div style="background: var(--color-bg); padding: 2rem; border-radius: var(--radius-md);">
+                                <h3 style="margin-bottom: 1.5rem;"><i class="fas fa-route"></i> ルート詳細</h3>
+                                <ul style="display: flex; flex-direction: column; gap: 1rem;">
+                                    <li>① 平和公園・原爆落下中心地【下車30分】</li>
+                                    <li>② 浦上天主堂【車窓】</li>
+                                    <li>③ 一本柱鳥居【車窓】🚕 鳥居真下を通過</li>
+                                    <li>④ 眼鏡橋【下車15分】🚕 ハートストーン探し</li>
+                                    <li>⑤ 出島【車窓】</li>
+                                    <li>⑥ オランダ坂【車窓】</li>
+                                    <li>⑦ グラバー園・大浦天主堂【下車60分】🚕 第2ゲート送り</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 style="margin-bottom: 1.5rem;">このコースのポイント</h3>
+                                <ul style="display: flex; flex-direction: column; gap: 1rem;">
+                                    <li style="display: flex; gap: 0.5rem;"><i class="fas fa-check-circle"
+                                            style="color: var(--color-accent);"></i> 主要スポットを網羅！</li>
+                                    <li style="display: flex; gap: 0.5rem;"><i class="fas fa-check-circle"
+                                            style="color: var(--color-accent);"></i> 北から南へ効率よく移動</li>
+                                    <li style="display: flex; gap: 0.5rem;"><i class="fas fa-check-circle"
+                                            style="color: var(--color-accent);"></i> 下車と車窓の絶妙なバランス</li>
+                                    <li style="display: flex; gap: 0.5rem;"><i class="fas fa-check-circle"
+                                            style="color: var(--color-accent);"></i> 3時間でこれだけ回れるのはタクシーならでは</li>
+                                </ul>
+                                <div class="img-placeholder" style="margin-top: 2rem;">
+                                    <i class="fas fa-camera"></i> 眼鏡橋などの観光写真
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ③ じっくり長崎コース -->
+                <div id="jikkuri" class="reveal-up">
+                    <div
+                        style="border-left: 6px solid var(--color-secondary); padding-left: 1.5rem; margin-bottom: 2rem;">
+                        <h2 style="font-size: 2rem; color: var(--color-text);">③ じっくり長崎コース</h2>
+                        <p style="font-weight: bold; color: var(--color-text-light);"><i class="far fa-clock"></i> 4時間〜
+                        </p>
+                    </div>
+                    <p style="margin-bottom: 2rem;"><strong>こんな方に：</strong> ゆっくり写真を撮りたい／各スポットをじっくり見学したい／体力に不安がある</p>
+                    <div class="card glass" style="padding: 2.5rem;">
+                        <p style="margin-bottom: 1.5rem;">「長崎まるごとコース」の内容に加えて、お好みのスポットを追加できます。</p>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                            <div
+                                style="background: white; padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid #eee;">
+                                <h4 style="color: var(--color-primary);">+ 孔子廟</h4>
+                                <p style="font-size: 0.9rem;">中国文化の影響を感じる色鮮やかな建築</p>
+                            </div>
+                            <div
+                                style="background: white; padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid #eee;">
+                                <h4 style="color: var(--color-primary);">+ 崇福寺</h4>
+                                <p style="font-size: 0.9rem;">国宝の赤い山門が美しい中国寺院</p>
+                            </div>
+                            <div
+                                style="background: white; padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid #eee;">
+                                <h4 style="color: var(--color-primary);">+ 稲佐山展望台</h4>
+                                <p style="font-size: 0.9rem;">世界新三大夜景の地から長崎を一望</p>
+                            </div>
+                            <div
+                                style="background: white; padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid #eee;">
+                                <h4 style="color: var(--color-primary);">+ 原爆資料館</h4>
+                                <p style="font-size: 0.9rem;">より深く平和について学びたい方に</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ④ 外海・世界遺産コース -->
+                <div id="sotome" class="reveal-up">
+                    <div style="border-left: 6px solid var(--color-accent); padding-left: 1.5rem; margin-bottom: 2rem;">
+                        <h2 style="font-size: 2rem; color: var(--color-text);">④ 外海・世界遺産コース</h2>
+                        <p style="font-weight: bold; color: var(--color-text-light);"><i class="far fa-clock"></i> 5〜6時間
+                        </p>
+                    </div>
+                    <p style="margin-bottom: 2rem;"><strong>こんな方に：</strong> 世界遺産「潜伏キリシタン関連遺産」を訪ねたい／長崎2回目以上の方／歴史好きの方</p>
+                    <div class="card" style="overflow: hidden;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                            <div class="img-placeholder" style="border-radius: 0; margin-bottom: 0;">
+                                <i class="fas fa-church"></i> 外海地区の絶景写真
+                            </div>
+                            <div style="padding: 2.5rem;">
+                                <h3 style="margin-bottom: 1.5rem; color: var(--color-accent);">テーマ：祈りの里・外海へ</h3>
+                                <ul style="display: flex; flex-direction: column; gap: 1rem;">
+                                    <li><strong>① 外海地区</strong><br><small>出津教会（世界遺産）、ド・ロ神父記念館、遠藤周作文学館など</small></li>
+                                    <li><strong>② 黒崎教会</strong></li>
+                                    <li><strong>③ 道の駅 夕陽が丘そとめ</strong><br><small>角力灘を望む絶景スポット</small></li>
+                                </ul>
+                                <div
+                                    style="margin-top: 2rem; padding: 1rem; background: var(--color-primary-light); border-radius: var(--radius-md); font-size: 0.9rem;">
+                                    <i class="fas fa-info-circle"></i> 公共交通では1日がかりの場所を、海沿いの絶景ドライブを楽しみながら効率よく巡ります。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Departure Points -->
+                <div class="reveal-up glass" style="padding: 3rem; border-radius: var(--radius-lg);">
+                    <h2 style="text-align: center; margin-bottom: 3rem;">出発地について</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem;">
+                        <div>
+                            <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;"><i class="fas fa-hotel"></i>
+                                ホテルから</h4>
+                            <p style="font-size: 0.95rem;">ご宿泊先のロビーまでお迎えに上がります。荷物を置いてから午後観光、が人気です。</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;"><i class="fas fa-plane"></i>
+                                長崎空港から</h4>
+                            <p style="font-size: 0.95rem;">空港から観光しながら市内へ。到着日を有効活用できます。</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;"><i class="fas fa-train"></i>
+                                長崎駅から</h4>
+                            <p style="font-size: 0.95rem;">新幹線でお越しの方に。駅でお待ち合わせいたします。</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--color-primary); margin-bottom: 0.5rem;"><i class="fas fa-undo"></i>
+                                お帰りの送り</h4>
+                            <p style="font-size: 0.95rem;">観光後、そのまま空港・駅へお送りすることも可能です。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Customization -->
+                <div class="reveal-up" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h2 style="margin-bottom: 2rem;">カスタマイズのご案内</h2>
+                    <div
+                        style="background: white; padding: 3rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-premium);">
+                        <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+                            「このスポットを追加したい」「ここは省略したい」<br>
+                            「途中で美味しいランチを食べたい」「お土産を買う時間がほしい」
+                        </p>
+                        <p style="margin-bottom: 2rem;">
+                            どんなご要望もお気軽にお申し付けください。<br>
+                            お客様だけのオリジナルコースをお作りします。
+                        </p>
+                        <a href="rates.html" class="btn btn-primary">中平に相談してみる &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+    <footer class="footer">
+        <div class="container" style="text-align: center;">
+            <div style="margin-bottom: 2rem;">
+                <a href="index.html" style="font-size: 1.5rem; font-weight: 800; color: var(--color-primary);">
+                    <i class="fas fa-taxi"></i> 中平個人タクシー
+                </a>
+            </div>
+            <ul style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-bottom: 2rem;">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="reason.html">選ばれる理由</a></li>
+                <li><a href="courses.html">観光コース</a></li>
+                <li><a href="driver.html">ドライバー紹介</a></li>
+                <li><a href="rates.html">料金・ご予約</a></li>
+                <li><a href="reviews.html">お客様の声</a></li>
+                <li><a href="blog.html">おすすめ情報</a></li>
+            </ul>
+            <p style="font-size: 0.9rem; color: var(--color-text-light);">
+                &copy; 2025 Nakahira Private Taxi. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Action Float -->
+    <div class="action-float">
+        <a href="tel:090-2507-9761" class="action-btn tel">
+            <div style="display: flex; flex-direction: column; align-items: center; line-height: 1.2;">
+                <span><i class="fas fa-phone-alt"></i> 電話予約</span>
+                <span style="font-size: 0.7rem; font-weight: normal;">(11:00-21:00)</span>
+            </div>
+        </a>
+        <a href="rates.html" class="action-btn book">
+            <i class="far fa-envelope"></i> Web予約
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

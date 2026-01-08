@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>長崎の観光タクシーなら中平個人タクシー | 地元ドライバーがご案内</title>
+    <meta name="description"
+        content="長崎を知り尽くした地元ドライバー中平による、アットホームで楽しい個人タクシー観光。グラバー園、稲佐山の夜景、龍馬ゆかりの地など、あなただけの特別な長崎旅をサポートします。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-taxi"></i> <span>中平個人タクシー</span>
+            </a>
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <div class="header-phone hide-mobile">
+                    <i class="fas fa-phone-alt"></i> 090-2507-9761
+                </div>
+                <button class="mobile-menu-btn" aria-label="メニューを開く">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="reason.html" class="nav-link">選ばれる理由</a></li>
+                    <li><a href="courses.html" class="nav-link">観光コース</a></li>
+                    <li><a href="driver.html" class="nav-link">ドライバー紹介</a></li>
+                    <li><a href="rates.html" class="nav-link">料金・ご予約</a></li>
+                    <li><a href="reviews.html" class="nav-link">お客様の声</a></li>
+                    <li><a href="blog.html" class="nav-link">おすすめ情報</a></li>
+                    <li class="hide-mobile">
+                        <a href="tel:090-2507-9761" class="btn btn-primary" style="padding: 0.5rem 1.5rem;">
+                            <i class="fas fa-phone-alt"></i> 予約電話する
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero reveal">
+        <div class="container">
+            <div class="hero-text">
+                <h1 class="text-gradient">長崎の坂道も、<br>笑顔でご案内します。</h1>
+                <p>はじめまして、中平（なかひら）です。<br>
+                    ガイドブックには載っていない「本当の長崎」を<br>
+                    地元の言葉で、楽しくお話ししながらご案内します。</p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="courses.html" class="btn btn-primary"><i class="fas fa-map-marked-alt"></i> 観光コースを見る</a>
+                    <a href="rates.html" class="btn btn-secondary"><i class="fas fa-calendar-check"></i> 料金・ご予約</a>
+                </div>
+            </div>
+            <div class="hero-image-container reveal" style="animation-delay: 0.2s;">
+                <img src="images/nagasaki_night_view_1765369944746.png" alt="長崎の美しい夜景">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3 Strengths -->
+    <section class="section" style="background-color: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <!-- Strength 1 -->
+                <div class="card reveal-up" style="text-align: center; padding: 2.5rem 2rem;">
+                    <div
+                        style="width: 80px; height: 80px; background: var(--color-primary-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-award" style="font-size: 2.5rem; color: var(--color-primary);"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">25年の実績と信頼</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">四半世紀、長崎の街を走り続けてきました。歴史から裏道まで、地元のプロとしてご案内します。</p>
+                </div>
+                <!-- Strength 2 -->
+                <div class="card reveal-up" style="text-align: center; padding: 2.5rem 2rem; animation-delay: 0.1s;">
+                    <div
+                        style="width: 80px; height: 80px; background: var(--color-primary-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-crown" style="font-size: 2.5rem; color: var(--color-primary);"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">クラウンロイヤルで快適</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">長崎初の個人タクシー導入。広々とした静かな車内で、長時間の移動も疲れずにお過ごしいただけます。</p>
+                </div>
+                <!-- Strength 3 -->
+                <div class="card reveal-up" style="text-align: center; padding: 2.5rem 2rem; animation-delay: 0.2s;">
+                    <div
+                        style="width: 80px; height: 80px; background: var(--color-primary-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                        <i class="fas fa-utensils" style="font-size: 2.5rem; color: var(--color-primary);"></i>
+                    </div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 1rem;">食事・お土産もお任せ</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6;">ガイドブックに載っていない美味しいお店や、地元民が選ぶ本物のお土産処をご紹介。予約・手配も代行します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction / Welcome -->
+    <section class="section" style="background-color: var(--color-white);">
+        <div class="container">
+            <h2 class="section-title">ようこそ、長崎へ！<br><span>Welcome to Nagasaki</span></h2>
+            <div style="max-width: 800px; margin: 0 auto; display: grid; gap: 2rem;">
+                <img src="images/intro_driver.png" alt="お客様をお迎えする中平ドライバー"
+                    style="width: 100%; height: auto; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                <div
+                    style="display: flex; flex-direction: column; gap: 1.5rem; align-items: center; text-align: center;">
+                    <p>
+                        「長崎は坂の街」とよく言われますが、その坂の上から見る景色や、
+                        路地裏に隠れた歴史の物語こそが、長崎の一番の魅力です。
+                    </p>
+                    <p>
+                        でも、坂道を歩いて回るのは大変ですよね。<br>
+                        そんな時こそ、私たち個人タクシーにお任せください。
+                        ドア・ツー・ドアで快適に、まるで親戚の家に来たような
+                        アットホームな雰囲気で、思い出作りをお手伝いします。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FULL REASONS SECTION -->
+    <section id="reasons" class="section">
+        <div class="container">
+            <h2 class="section-title">中平タクシーが選ばれる<br>5つの理由<br><span>Why Choose Us</span></h2>
+
+            <div style="display: flex; flex-direction: column; gap: 3rem;">
+
+                <!-- Reason 1 -->
+                <div class="card card-horizontal" style="padding: 2rem;">
+                    <div style="flex: 1; text-align: center;">
+                        <img src="images/reason_crown_royal_1767845589180.png" alt="長崎初のクラウンロイヤル"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);">
+                    </div>
+                    <div style="flex: 3;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--color-primary);">1.
+                            長崎初のクラウンロイヤル：VIPな乗り心地</h3>
+                        <p>
+                            最高級セダン「クラウン・ロイヤルサルーン」を導入。静かで広々とした車内で、長崎の坂道も疲れず優雅に移動できます。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Reason 2 -->
+                <div class="card card-horizontal" style="padding: 2rem;">
+                    <div style="flex: 1; text-align: center;">
+                        <img src="images/reason_experience_1767845602530.png" alt="25年の地元経験"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);">
+                    </div>
+                    <div style="flex: 3;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--color-primary);">2.
+                            25年の地元経験：効率的なルートと穴場</h3>
+                        <p>
+                            四半世紀走り続けてきたからこそ知る、渋滞を避ける裏道や、ガイドブック未掲載の絶景スポットをご案内します。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Reason 3 -->
+                <div class="card card-horizontal" style="padding: 2rem;">
+                    <div style="flex: 1; text-align: center;">
+                        <img src="images/reason_smart_access_1767845618351.png" alt="坂道・階段対策"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);">
+                    </div>
+                    <div style="flex: 3;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--color-primary);">3.
+                            坂道・階段対策：快適なアクセスを追求</h3>
+                        <p>
+                            グラバー園は一番上から入園するなど、坂や階段を極力歩かない「楽々ルート」を熟練の判断でプロデュースします。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Reason 4 -->
+                <div class="card card-horizontal" style="padding: 2rem;">
+                    <div style="flex: 1; text-align: center;">
+                        <img src="images/reason_local_food_champon_1767845636775.png" alt="食事・お土産プロデュース"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);">
+                    </div>
+                    <div style="flex: 3;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--color-primary);">4.
+                            食事・お土産プロデュース：地元民の名店</h3>
+                        <p>
+                            タクシー運転手が通う「本当のグルメ店」や地元民選定のカステラ店など、食事や買い物で失敗させないご提案をします。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Reason 5 -->
+                <div class="card card-horizontal"
+                    style="padding: 2rem; background-color: var(--color-primary-light); border: 2px solid var(--color-primary);">
+                    <div style="flex: 1; text-align: center;">
+                        <img src="images/reason_family_boarding_1767845654689.png" alt="ご家族連れ歓迎"
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-md);">
+                    </div>
+                    <div style="flex: 3;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--color-primary);">5.
+                            ご家族連れ歓迎：全世代に優しい対応</h3>
+                        <p>
+                            「親戚のおじちゃん」のような温かさで、全世代の旅行をサポート。急な予定変更や写真撮影も大歓迎です。
+                        </p>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="reason.html" class="btn btn-secondary">5つの理由を詳しく見る &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION (SUMMARY) -->
+    <section id="courses" class="section reveal-up" style="background-color: var(--color-white);">
+        <div class="container">
+            <h2 class="section-title">観光モデルコース<br><span class="text-gradient">Model Courses</span></h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                長崎の見どころを25年の経験を活かしてご案内します。<br>
+                定番から世界遺産まで、4つの主要コースをご用意しました。
+            </p>
+
+            <div class="card glass" style="margin-bottom: 2rem; overflow: hidden;">
+                <div style="display: flex; flex-direction: column;">
+                    <div style="flex: 2; padding: 3rem;">
+                        <h3 style="font-size: 1.8rem; color: var(--color-primary); margin-bottom: 1.5rem;">
+                            用途に合わせて選べる4プラン</h3>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                            <div>
+                                <h4 style="color: var(--color-text);"><i class="fas fa-bolt"></i> ① サクッと長崎</h4>
+                                <p style="font-size: 0.9rem;">2〜2.5時間。時間がない方に最適。</p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--color-text);"><i class="fas fa-crown"></i> ② 長崎まるごと</h4>
+                                <p style="font-size: 0.9rem;">3〜3.5時間。王道スポットを網羅。</p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--color-text);"><i class="fas fa-camera-retro"></i> ③ じっくり長崎</h4>
+                                <p style="font-size: 0.9rem;">4時間〜。写真や見学もゆったりと。</p>
+                            </div>
+                            <div>
+                                <h4 style="color: var(--color-text);"><i class="fas fa-history"></i> ④ 外海・世界遺産</h4>
+                                <p style="font-size: 0.9rem;">5〜6時間。祈りの里を巡る特別な旅。</p>
+                            </div>
+                        </div>
+                        <a href="courses.html" class="btn btn-primary">全コースの詳細・ルートを見る &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG SECTION (SUMMARY) -->
+    <section id="blog-summary" class="section reveal-up">
+        <div class="container">
+            <div
+                style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 0;">地元ドライバーおすすめ情報<br><span
+                            class="text-gradient">Local Tips & Blog</span></h2>
+                </div>
+                <a href="blog.html" style="color: var(--color-primary); font-weight: bold;">一覧を見る &rarr;</a>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <article class="card" style="padding: 0; overflow: hidden;">
+                    <div class="img-placeholder" style="border-radius: 0; margin-bottom: 0; aspect-ratio: 16/9;">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span style="font-size: 0.8rem; color: var(--color-primary); font-weight: bold;">グルメ</span>
+                        <h3 style="font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 1rem;">
+                            タクシー運転手が通う！「本当に美味しい」ちゃんぽん店3選</h3>
+                        <a href="blog.html" style="font-size: 0.9rem; color: var(--color-text-light);">続きを読む &rarr;</a>
+                    </div>
+                </article>
+                <article class="card" style="padding: 0; overflow: hidden;">
+                    <div class="img-placeholder" style="border-radius: 0; margin-bottom: 0; aspect-ratio: 16/9;">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span style="font-size: 0.8rem; color: var(--color-primary); font-weight: bold;">お土産</span>
+                        <h3 style="font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 1rem;">カステラだけじゃない！長崎の隠れた銘菓</h3>
+                        <a href="blog.html" style="font-size: 0.9rem; color: var(--color-text-light);">続きを読む &rarr;</a>
+                    </div>
+                </article>
+                <article class="card" style="padding: 0; overflow: hidden;">
+                    <div class="img-placeholder" style="border-radius: 0; margin-bottom: 0; aspect-ratio: 16/9;">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span style="font-size: 0.8rem; color: var(--color-primary); font-weight: bold;">観光穴場</span>
+                        <h3 style="font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 1rem;">冬のグラバー園おすすめ撮影スポット</h3>
+                        <a href="blog.html" style="font-size: 0.9rem; color: var(--color-text-light);">続きを読む &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FULL DRIVER SECTION -->
+    <section id="driver" class="section">
+        <div class="container">
+            <h2 class="section-title">ドライバー紹介<br><span>About Me</span></h2>
+
+            <div class="card profile-grid">
+
+                <div style="text-align: center;">
+                    <img src="images/intro_driver.png" alt="中平ドライバー"
+                        style="width: 100%; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); margin-bottom: 1rem;">
+                    <h2 style="font-size: 1.5rem; color: var(--color-primary); margin-bottom: 0.5rem;">中平 〇〇</h2>
+                    <p style="color: var(--color-text-light);">Nakahira Taxi Owner Driver</p>
+                </div>
+
+                <div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">「長崎の親戚のおじちゃん」を目指して</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        はじめまして、中平です。長崎で生まれ育ち、タクシードライバー歴は○○年になります。<br>
+                        私のモットーは「お客様を自分の家族や親戚だと思って案内する」こと。
+                        マニュアル通りの案内ではなく、その日の天気やお客様の気分に合わせて、
+                        一番楽しめるプランを提案させていただきます。
+                    </p>
+                    <p style="margin-bottom: 1.5rem;">
+                        歴史の話も大好きで、「長崎歴史文化観光検定」も取得しました。
+                        教科書には載っていないような裏話や、地元の人しか知らない美味しいお店の情報も
+                        こっそりお教えしますよ！
+                    </p>
+
+                    <div
+                        style="background: var(--color-bg); padding: 1.5rem; border-radius: var(--radius-md); margin-top: 2rem;">
+                        <h4 style="margin-bottom: 1rem; color: var(--color-primary);"><i class="fas fa-id-card"></i>
+                            プロフィール</h4>
+                        <ul style="list-style-type: none;">
+                            <li style="margin-bottom: 0.5rem;"><strong>出身：</strong> 長崎県長崎市</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>趣味：</strong> 魚釣り、写真撮影</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>資格：</strong> 長崎歴史文化観光検定、普通自動車第二種免許</li>
+                            <li style="margin-bottom: 0.5rem;"><strong>好きな食べ物：</strong> ちゃんぽん、カステラ</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Hobby Photos -->
+            <div style="margin-top: 4rem;">
+                <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 2rem; color: var(--color-primary);">
+                    私の休日<span
+                        style="display: block; font-size: 0.9rem; color: var(--color-text-light);">プライベートな一面もご紹介</span>
+                </h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                    <div class="img-placeholder">
+                        <i class="fas fa-fish"></i> 趣味の釣りを楽しむ写真
+                    </div>
+                    <div class="img-placeholder">
+                        <i class="fas fa-taxi"></i> 愛車とのツーショット
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="rates.html" class="btn btn-secondary">中平に相談してみる &rarr;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RATES SECTION (SUMMARY) -->
+    <section id="rates" class="section" style="background-color: var(--color-white);">
+        <div class="container">
+            <h2 class="section-title">ご利用料金<br><span>Rates</span></h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                わかりやすい時間制運賃です。
+            </p>
+
+            <div class="card" style="max-width: 600px; margin: 0 auto; padding: 2rem; text-align: center;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--color-primary);">貸切観光タクシー（普通車）</h3>
+                <div style="display: flex; justify-content: space-around; margin-bottom: 2rem;">
+                    <div>
+                        <div style="font-size: 0.9rem; color: var(--color-text-light);">3時間</div>
+                        <div style="font-size: 1.5rem; font-weight: bold; color: var(--color-text);">15,000円</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 0.9rem; color: var(--color-text-light);">4時間</div>
+                        <div style="font-size: 1.5rem; font-weight: bold; color: var(--color-text);">20,000円</div>
+                    </div>
+                </div>
+                <p style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">※延長 30分 2,500円（税込）</p>
+                <a href="rates.html" class="btn btn-secondary">詳しい料金表・お支払い方法はこちら &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews (Voice Section) -->
+    <section id="reviews" class="section">
+        <div class="container">
+            <h2 class="section-title">お客様の声<br><span class="text-gradient">Customer Voice</span></h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                実際にご利用いただいたお客様から、温かいメッセージをいただいています。<br>
+                観光だけでなく、地元ならではの会話や心地よい車内空間も喜ばれています。
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem;">
+
+                <!-- Review 1 (Couple) -->
+                <div class="card reveal-up" style="padding: 2rem; border-top: 5px solid var(--color-primary);">
+                    <div class="img-placeholder" style="width: 100%; height: 220px; margin-bottom: 1.5rem;">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap;">
+                        <span
+                            style="background: var(--color-primary-light); color: var(--color-primary); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: bold;">ご夫婦</span>
+                        <span
+                            style="background: var(--color-bg); color: var(--color-text-light); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">龍馬ゆかりの地コース</span>
+                    </div>
+                    <div style="color: var(--color-secondary); margin-bottom: 0.5rem; font-size: 0.9rem;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; font-size: 1.2rem; line-height: 1.4;">「歴史の裏話が面白く、あっという間でした」</h3>
+                    <p
+                        style="margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.6; color: var(--color-text-light);">
+                        夫婦で坂本龍馬ゆかりの地を案内してもらいました。ただの解説だけでなく、当時のエピソードを面白おかしく話してくださり、感動しました。時間はあっという間！また長崎に来るときは中平さんにお願いしたいです。
+                    </p>
+                    <div style="font-size: 0.85rem; border-top: 1px solid var(--color-bg); padding-top: 1rem;">
+                        <strong>東京都 S様</strong>
+                    </div>
+                </div>
+
+                <!-- Review 2 (Family) -->
+                <div class="card reveal-up"
+                    style="padding: 2rem; border-top: 5px solid var(--color-accent); animation-delay: 0.1s;">
+                    <div class="img-placeholder" style="width: 100%; height: 220px; margin-bottom: 1.5rem;">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap;">
+                        <span
+                            style="background: #f0fdf4; color: #16a34a; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: bold;">ファミリー</span>
+                        <span
+                            style="background: var(--color-bg); color: var(--color-text-light); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">定番観光コース</span>
+                    </div>
+                    <div style="color: var(--color-secondary); margin-bottom: 0.5rem; font-size: 0.9rem;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; font-size: 1.2rem; line-height: 1.4;">「足の悪い母も無理なく楽しめました」</h3>
+                    <p
+                        style="margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.6; color: var(--color-text-light);">
+                        高齢の母との旅行で不安でしたが、観光スポットの目の前まで車をつけてくださり、段差が少ないルートを提案してくれました。中平さんの細やかな気遣いに、母も「ここに来て良かった」と大満足でした。
+                    </p>
+                    <div style="font-size: 0.85rem; border-top: 1px solid var(--color-bg); padding-top: 1rem;">
+                        <strong>大阪府 K様</strong>
+                    </div>
+                </div>
+
+                <!-- Review 3 (Solo) -->
+                <div class="card reveal-up"
+                    style="padding: 2rem; border-top: 5px solid var(--color-secondary); animation-delay: 0.2s;">
+                    <div class="img-placeholder" style="width: 100%; height: 220px; margin-bottom: 1.5rem;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap;">
+                        <span
+                            style="background: #fffbeb; color: #d97706; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: bold;">一人旅</span>
+                        <span
+                            style="background: var(--color-bg); color: var(--color-text-light); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.8rem;">フリープラン</span>
+                    </div>
+                    <div style="color: var(--color-secondary); margin-bottom: 0.5rem; font-size: 0.9rem;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3 style="margin-bottom: 1rem; font-size: 1.2rem; line-height: 1.4;">「地元の穴場をたくさん知れました」</h3>
+                    <p
+                        style="margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.6; color: var(--color-text-light);">
+                        一人旅で不安でしたが、中平さんが気さくに話しかけてくれて、とても楽しい時間を過ごせました。おすすめのチャンポン屋さんもすごく美味しかったです！写真もたくさん撮っていただき感謝しています。
+                    </p>
+                    <div style="font-size: 0.85rem; border-top: 1px solid var(--color-bg); padding-top: 1rem;">
+                        <strong>神奈川県 M様</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Handwritten Letters Section -->
+            <div style="margin-top: 6rem;">
+                <h3 style="text-align: center; font-size: 1.6rem; margin-bottom: 3rem; color: var(--color-primary);">
+                    <i class="fas fa-pen-fancy"></i> 心のこもったお手紙も届いています
+                </h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                    <div class="card glass reveal-up" style="padding: 1rem; transform: rotate(-1.5deg);">
+                        <div class="img-placeholder"
+                            style="aspect-ratio: 1/1.3; font-size: 0.9rem; color: var(--color-text-light); background: #fdfdfd; border: 1px solid #eee;">
+                            <i class="far fa-envelope-open"
+                                style="font-size: 2rem; margin-bottom: 1rem; display: block;"></i>
+                            手書きのお手紙（写真）
+                        </div>
+                    </div>
+                    <div class="card glass reveal-up"
+                        style="padding: 1rem; transform: rotate(1.2deg); animation-delay: 0.1s;">
+                        <div class="img-placeholder"
+                            style="aspect-ratio: 1/1.3; font-size: 0.9rem; color: var(--color-text-light); background: #fdfdfd; border: 1px solid #eee;">
+                            <i class="far fa-envelope-open"
+                                style="font-size: 2rem; margin-bottom: 1rem; display: block;"></i>
+                            手書きのお手紙（写真）
+                        </div>
+                    </div>
+                    <div class="card glass reveal-up"
+                        style="padding: 1rem; transform: rotate(-0.8deg); animation-delay: 0.2s;">
+                        <div class="img-placeholder"
+                            style="aspect-ratio: 1/1.3; font-size: 0.9rem; color: var(--color-text-light); background: #fdfdfd; border: 1px solid #eee;">
+                            <i class="far fa-envelope-open"
+                                style="font-size: 2rem; margin-bottom: 1rem; display: block;"></i>
+                            手書きのお手紙（写真）
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review Request -->
+            <div class="reveal-up"
+                style="margin-top: 6rem; text-align: center; background: var(--color-primary-light); padding: 4rem 2rem; border-radius: var(--radius-lg); border: 2px dashed var(--color-primary);">
+                <h3 style="font-size: 1.8rem; color: var(--color-primary); margin-bottom: 1.5rem;">あなたの旅の感想をお聞かせください
+                </h3>
+                <p
+                    style="margin-bottom: 2.5rem; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.8;">
+                    中平個人タクシーをご利用いただいた感想を、ぜひお寄せください。<br>
+                    皆様の温かい言葉が、明日への活力になります！
+                </p>
+                <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+                    <a href="rates.html" class="btn btn-primary"><i class="far fa-envelope"></i> メールで送る</a>
+                    <a href="#" class="btn btn-secondary"
+                        style="background: #06c755; color: white; border: none; padding: 1rem 2rem;"><i
+                            class="fab fa-line"></i> LINEで送る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Flow -->
+    <section class="section" style="background-color: var(--color-white);">
+        <div class="container">
+            <h2 class="section-title">ご予約の流れ<br><span>How to Book</span></h2>
+            <div style="display: flex; flex-direction: column; gap: 2rem; max-width: 800px; margin: 0 auto;">
+
+                <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+                    <div
+                        style="background: var(--color-primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0;">
+                        1</div>
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem;">お問い合わせ・ご予約</h3>
+                        <p>
+                            お電話（<strong>090-2507-9761</strong> / 11:00〜21:00）またはWeb予約フォームからご連絡ください。
+                        </p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+                    <div
+                        style="background: var(--color-primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0;">
+                        2</div>
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem;">プランのご相談・決定</h3>
+                        <p>
+                            行きたい場所やご希望をお伺いし、最適なコースをご提案します。もちろん、当日その場の気分で決めても大丈夫です。
+                        </p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 1.5rem; align-items: flex-start;">
+                    <div
+                        style="background: var(--color-primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0;">
+                        3</div>
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem;">当日のご案内</h3>
+                        <p>
+                            ホテルや駅など、ご指定の場所へお迎えにあがります。アットホームな長崎観光をお楽しみください！
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">よくあるご質問<br><span>FAQ</span></h2>
+            <div style="display: grid; gap: 1.5rem; max-width: 800px; margin: 0 auto;">
+
+                <div
+                    style="background: white; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                    <h3 style="color: var(--color-primary); font-size: 1.1rem; margin-bottom: 0.5rem;">Q.
+                        当日のコース変更はできますか？</h3>
+                    <p>はい、もちろん可能です。天候や体調に合わせて柔軟に対応いたしますので、お気軽にご相談ください。</p>
+                </div>
+
+                <div
+                    style="background: white; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                    <h3 style="color: var(--color-primary); font-size: 1.1rem; margin-bottom: 0.5rem;">Q. 支払いはカードも使えますか？
+                    </h3>
+                    <p>はい、各種クレジットカード（Visa, Mastercard, etc.）やPayPayなどのQR決済にも対応しています。</p>
+                </div>
+
+                <div
+                    style="background: white; padding: 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                    <h3 style="color: var(--color-primary); font-size: 1.1rem; margin-bottom: 0.5rem;">Q. 大きな荷物は積めますか？
+                    </h3>
+                    <p>トランクにはスーツケース2〜3個程度は収納可能です。お荷物が多い場合は、事前にお知らせください。</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container" style="text-align: center;">
+            <div style="margin-bottom: 2rem;">
+                <a href="index.html" style="font-size: 1.5rem; font-weight: 800; color: var(--color-primary);"><i
+                        class="fas fa-taxi"></i> 中平個人タクシー</a>
+            </div>
+
+            <ul style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-bottom: 2rem;">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="reason.html">選ばれる理由</a></li>
+                <li><a href="courses.html">観光コース</a></li>
+                <li><a href="driver.html">ドライバー紹介</a></li>
+                <li><a href="rates.html">料金・ご予約</a></li>
+                <li><a href="reviews.html">お客様の声</a></li>
+                <li><a href="blog.html">おすすめ情報</a></li>
+            </ul>
+
+            <p style="font-size: 0.9rem; color: var(--color-text-light);">
+                &copy; 2025 Nakahira Private Taxi. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Action Float (Mobile Only) -->
+    <div class="action-float">
+        <a href="tel:090-2507-9761" class="action-btn tel">
+            <div style="display: flex; flex-direction: column; align-items: center; line-height: 1.2;">
+                <span><i class="fas fa-phone-alt"></i> 電話予約</span>
+                <span style="font-size: 0.7rem; font-weight: normal;">(11:00-21:00)</span>
+            </div>
+        </a>
+        <a href="rates.html" class="action-btn book">
+            <i class="far fa-envelope"></i> Web予約
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
